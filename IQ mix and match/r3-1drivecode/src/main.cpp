@@ -35,6 +35,8 @@ int mainCode(){
     pneumatic2.pump(true);
     pneumatic1.retract(cylinder1);
     pneumatic1.retract(cylinder2);
+    pneumatic2.retract(cylinder1);
+    pneumatic2.extend(cylinder2);
     while (Controller.ButtonFUp.pressing()){
         vex::wait(20,msec);
     }
@@ -138,20 +140,49 @@ int mainCode(){
 
 int beamArm() {
     bool pnumatic = false;
-    bool Bmiddle = false;
+    int Bpos = 1;
     beamGroup.setVelocity(100, percent);
     beamGroup.setMaxTorque(100, percent);
     beamGroup.setStopping(hold);
     while (true) {
         if(Controller.ButtonRUp.pressing()){
-            if(Bmiddle == false){
-                Bmiddle = true;
+            if(Bpos == 1){
+                Bpos = 2;
                 beamGroup.spinTo(300, degrees);
-            } else if(Bmiddle == true){
+            } else if(Bpos == 2){
+                Bpos = 3;
                 beamGroup.spinTo(600, degrees);
             }
             
-            while(!Controller.ButtonRUp.pressing()){
+            while(Controller.ButtonRUp.pressing()){
+                vex::wait(20, msec);
+            }
+        }
+
+        if(Controller.ButtonRDown.pressing()){
+            if(Bpos == 1){
+                if(pnumatic == false)
+                    pneumatic2.retract(cylinder2); 
+                else 
+                    pneumatic2.extend(cylinder2);
+                pnumatic = !pnumatic;
+            } else if(Bpos == 2){
+                beamGroup.spinTo(200, degrees);
+                pneumatic2.extend(cylinder2);
+                wait(3, seconds);
+                beamGroup.spinTo(0, degrees);
+                pnumatic = false;
+                Bpos = 1;
+            } else if(Bpos == 3){
+                beamGroup.spinTo(500, degrees);
+                pneumatic2.extend(cylinder2);
+                wait(3, seconds);
+                beamGroup.spinTo(0, degrees);
+                pnumatic = false;
+                Bpos = 1;
+            }
+
+            while(Controller.ButtonRDown.pressing()){
                 vex::wait(20, msec);
             }
         }

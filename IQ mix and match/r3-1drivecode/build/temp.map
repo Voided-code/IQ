@@ -3093,7 +3093,7 @@ LOAD c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\
 LOAD c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libm.a
 LOAD c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libgcc.a
 END GROUP
-OUTPUT(build/r3-1drivecode.elf elf32-littlearm)
+OUTPUT(build/temp.elf elf32-littlearm)
 
 .comment        0x00000000       0x9d
  .comment       0x00000000       0x2d build/src/main.o
