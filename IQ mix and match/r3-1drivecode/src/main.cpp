@@ -45,6 +45,7 @@ int mainCode(){
     
     bool Amiddle = false;
     bool Aclose = false;
+    bool Acorner = false;
     while (true){
         if(Controller.ButtonLUp.pressing()){
             if(Amiddle == false){
@@ -80,7 +81,8 @@ int mainCode(){
             while (Controller.ButtonLUp.pressing()){
                 vex::wait(20, msec);
             }
-        } else if(Controller.ButtonLDown.pressing()){
+        } 
+        else if(Controller.ButtonLDown.pressing()){
             if(Amiddle == false){
                 if(Aclose == false){
                     Aclose = true;
@@ -102,38 +104,55 @@ int mainCode(){
                 vex::wait(20, msec);
             }
         }
+        else if(Controller.ButtonFDown.pressing()){
+            armGroup.spinTo(0, degrees, false);
+            beamGroup.spinTo(0, degrees, false);
+            while(armGroup.isSpinning() || beamGroup.isSpinning()){
+                vex::wait(20, msec);
+            }
+            pneumatic1.retract(cylinder1);
+            pneumatic1.retract(cylinder2);
+            pneumatic2.retract(cylinder2);
+            while (Controller.ButtonFUp.pressing()){
+                vex::wait(20, msec);
+            }
+        }
+        else if(Controller.ButtonFUp.pressing()){
+            armGroup.spinTo(210, degrees);
+            pneumatic1.retract(cylinder2);
+            pneumatic2.extend(cylinder1);
+            vex::wait(1,seconds);
 
+            armGroup.spinTo(0, degrees);
+            pneumatic2.retract(cylinder1);
+            pneumatic1.retract(cylinder1);
+            while (Controller.ButtonFUp.pressing()){
+                vex::wait(20, msec);
+            }
+        } 
+        else if(Controller.ButtonEUp.pressing()){
+            if(Acorner == false && Amiddle == false){
+                Acorner = true;
+                Amiddle = false;
+                pneumatic1.extend(cylinder1);
+                pneumatic1.extend(cylinder2);
+                armGroup.spinTo(75, degrees);
+                while (Controller.ButtonEUp.pressing()){
+                    vex::wait(20, msec);
+                }
+            } else if(Acorner == true && Amiddle == false){
+                Acorner = false;
+                Amiddle = false;
+                pneumatic1.retract(cylinder1);
+                pneumatic1.retract(cylinder2);
+                vex::wait(2, seconds);
+                armGroup.spinTo(0, degrees);
+                while (Controller.ButtonEUp.pressing()){
+                    vex::wait(20, msec);
+                }
+            }
+        }
         vex::wait(20,msec);
-        // if(Controller.ButtonFDown.pressing()){
-        //     armGroup.spinTo(210, degrees);
-        //     pneumatic1.retract(cylinder2);
-        //     pneumatic2.extend(cylinder1);
-        //     vex::wait(1,seconds);
-
-        //     armGroup.spinTo(0, degrees);
-        //     pneumatic2.retract(cylinder1);
-        //     pneumatic1.retract(cylinder1);
-        //     while (Controller.ButtonFDown.pressing()){
-        //         vex::wait(20, msec);
-        //     }
-        // } else if(Controller.ButtonEDown.pressing()){
-        //     armGroup.spinTo(30, degrees);
-        //     pneumatic1.retract(cylinder2);
-        //     while (Controller.ButtonEUp.pressing()){
-        //         vex::wait(20, msec);
-        //     }
-        //     while (!Controller.ButtonEUp.pressing()){
-        //         vex::wait(20, msec);
-        //     }
-        //     pneumatic1.retract(cylinder1);
-        //     pneumatic1.retract(cylinder2);
-        //     vex::wait(1, seconds);
-        //     armGroup.spinTo(0, degrees);
-        //     pneumatic1.extend(cylinder2);
-        //     while (Controller.ButtonEUp.pressing()){
-        //         vex::wait(20, msec);
-        //     }
-        // }
     }
     return 0;
 }

@@ -2257,7 +2257,7 @@ Linker script and memory map
                 0x00000020                _STACK_SIZE = DEFINED (_STACK_SIZE)?_STACK_SIZE:0x20
                 0x00001000                _HEAP_SIZE = DEFINED (_HEAP_SIZE)?_HEAP_SIZE:0x1000
 
-.text           0x20010000     0x22b4
+.text           0x20010000     0x2534
  *(.vectors)
  *(.boot_data)
  .boot_data     0x20010000       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
@@ -2321,341 +2321,341 @@ Linker script and memory map
                 0x20010ab8                drivecode()
  *fill*         0x20010b1c        0x4 
  .text._Z8mainCodev
-                0x20010b20      0x370 build/src/main.o
+                0x20010b20      0x5f0 build/src/main.o
                 0x20010b20                mainCode()
  .text._Z7beamArmv
-                0x20010e90      0x218 build/src/main.o
-                0x20010e90                beamArm()
- .text.main     0x200110a8       0x26 build/src/main.o
-                0x200110a8                main
+                0x20011110      0x218 build/src/main.o
+                0x20011110                beamArm()
+ .text.main     0x20011328       0x26 build/src/main.o
+                0x20011328                main
  .text._GLOBAL__sub_I_main.cpp
-                0x200110ce      0x1dc build/src/main.o
- *fill*         0x200112aa        0x2 
- .text.vexMain  0x200112ac       0x60 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
-                0x200112ac                vexMain
+                0x2001134e      0x1dc build/src/main.o
+ *fill*         0x2001152a        0x2 
+ .text.vexMain  0x2001152c       0x60 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
+                0x2001152c                vexMain
  .text.__vex_function_prolog
-                0x2001130c       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
-                0x2001130c                __vex_function_prolog
- .text._init    0x2001131c        0x2 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
-                0x2001131c                _init
+                0x2001158c       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
+                0x2001158c                __vex_function_prolog
+ .text._init    0x2001159c        0x2 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
+                0x2001159c                _init
  .text.__cxa_atexit
-                0x2001131e        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
-                0x2001131e                __cxa_atexit
- *fill*         0x20011322        0x2 
+                0x2001159e        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
+                0x2001159e                __cxa_atexit
+ *fill*         0x200115a2        0x2 
  .text.vexTaskAdd
-                0x20011324        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011324                vexTaskAdd
+                0x200115a4        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200115a4                vexTaskAdd
  .text.vexTaskCheckTimeslice
-                0x20011330        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011330                vexTaskCheckTimeslice
+                0x200115b0        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200115b0                vexTaskCheckTimeslice
  .text.vexTaskSleep
-                0x2001133c        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x2001133c                vexTaskSleep
+                0x200115bc        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200115bc                vexTaskSleep
  .text.vexTasksDump
-                0x20011348       0x18 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011348                vexTasksDump
+                0x200115c8       0x18 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200115c8                vexTasksDump
  .text.vexTaskGetTaskIndex
-                0x20011360        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011360                vexTaskGetTaskIndex
+                0x200115e0        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200115e0                vexTaskGetTaskIndex
  .text.vexTaskCompletionIdSet
-                0x2001136c        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x2001136c                vexTaskCompletionIdSet
+                0x200115ec        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200115ec                vexTaskCompletionIdSet
  .text.vexCriticalSection
-                0x20011378        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011378                vexCriticalSection
+                0x200115f8        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200115f8                vexCriticalSection
  .text.vexDisplayContextSwitch
-                0x20011384        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011384                vexDisplayContextSwitch
+                0x20011604        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x20011604                vexDisplayContextSwitch
  .text.vexEventUserIndexGet
-                0x20011390       0x18 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011390                vexEventUserIndexGet
+                0x20011610       0x18 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x20011610                vexEventUserIndexGet
  .text.vexDebug
-                0x200113a8       0x2c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x200113a8                vexDebug
+                0x20011628       0x2c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x20011628                vexDebug
  .text.vex_sprintf
-                0x200113d4       0x30 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x200113d4                vex_sprintf
+                0x20011654       0x30 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x20011654                vex_sprintf
  .text.vexSystemTimeGet
-                0x20011404       0x18 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011404                vexSystemTimeGet
+                0x20011684       0x18 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x20011684                vexSystemTimeGet
  .text.vexDeviceGetByIndex
-                0x2001141c       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x2001141c                vexDeviceGetByIndex
+                0x2001169c       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x2001169c                vexDeviceGetByIndex
  .text.vexMotorVelocitySet
-                0x20011438       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011438                vexMotorVelocitySet
+                0x200116b8       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200116b8                vexMotorVelocitySet
  .text.vexMotorActualVelocityGet
-                0x20011458       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011458                vexMotorActualVelocityGet
+                0x200116d8       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200116d8                vexMotorActualVelocityGet
  .text.vexMotorModeGet
-                0x20011474       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011474                vexMotorModeGet
+                0x200116f4       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200116f4                vexMotorModeGet
  .text.vexMotorCurrentLimitSet
-                0x20011490       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011490                vexMotorCurrentLimitSet
+                0x20011710       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x20011710                vexMotorCurrentLimitSet
  .text.vexMotorZeroPositionFlagGet
-                0x200114b0       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x200114b0                vexMotorZeroPositionFlagGet
+                0x20011730       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x20011730                vexMotorZeroPositionFlagGet
  .text.vexMotorReverseFlagSet
-                0x200114cc       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x200114cc                vexMotorReverseFlagSet
+                0x2001174c       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x2001174c                vexMotorReverseFlagSet
  .text.vexMotorEncoderUnitsSet
-                0x200114ec       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x200114ec                vexMotorEncoderUnitsSet
+                0x2001176c       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x2001176c                vexMotorEncoderUnitsSet
  .text.vexMotorBrakeModeSet
-                0x2001150c       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x2001150c                vexMotorBrakeModeSet
+                0x2001178c       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x2001178c                vexMotorBrakeModeSet
  .text.vexMotorPositionSet
-                0x2001152c       0x34 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x2001152c                vexMotorPositionSet
+                0x200117ac       0x34 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200117ac                vexMotorPositionSet
  .text.vexMotorAbsoluteTargetSet
-                0x20011560       0x38 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011560                vexMotorAbsoluteTargetSet
+                0x200117e0       0x38 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200117e0                vexMotorAbsoluteTargetSet
  .text.vexPneumaticCompressorSet
-                0x20011598       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011598                vexPneumaticCompressorSet
+                0x20011818       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x20011818                vexPneumaticCompressorSet
  .text.vexPneumaticCylinderSet
-                0x200115b8       0x24 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x200115b8                vexPneumaticCylinderSet
+                0x20011838       0x24 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x20011838                vexPneumaticCylinderSet
  .text.vexDisplayForegroundColor
-                0x200115dc       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x200115dc                vexDisplayForegroundColor
+                0x2001185c       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x2001185c                vexDisplayForegroundColor
  .text.vexDisplayBackgroundColor
-                0x200115f8       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x200115f8                vexDisplayBackgroundColor
+                0x20011878       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x20011878                vexDisplayBackgroundColor
  .text.vexDisplayTextSize
-                0x20011614       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011614                vexDisplayTextSize
+                0x20011894       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x20011894                vexDisplayTextSize
  .text.vexDisplayFontNamedSet
-                0x20011634       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011634                vexDisplayFontNamedSet
+                0x200118b4       0x1c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200118b4                vexDisplayFontNamedSet
  .text.vexControllerGet
-                0x20011650       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
-                0x20011650                vexControllerGet
+                0x200118d0       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x200118d0                vexControllerGet
  .text._ZN3vex4waitEdNS_9timeUnitsE
-                0x20011670       0x3c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x20011670                vex::wait(double, vex::timeUnits)
+                0x200118f0       0x3c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x200118f0                vex::wait(double, vex::timeUnits)
  .text._ZN3vex5colorD2Ev
-                0x200116ac        0x2 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x200116ac                vex::color::~color()
-                0x200116ac                vex::color::~color()
- *fill*         0x200116ae        0x2 
+                0x2001192c        0x2 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x2001192c                vex::color::~color()
+                0x2001192c                vex::color::~color()
+ *fill*         0x2001192e        0x2 
  .text.startup._GLOBAL__sub_I__ZN3vex5color5blackE
-                0x200116b0      0x18c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20011930      0x18c c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
  .text._ZN3vex4taskC2EPFivE
-                0x2001183c       0x38 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_task.cpp.o)
-                0x2001183c                vex::task::task(int (*)())
-                0x2001183c                vex::task::task(int (*)())
+                0x20011abc       0x38 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_task.cpp.o)
+                0x20011abc                vex::task::task(int (*)())
+                0x20011abc                vex::task::task(int (*)())
  .text._ZN3vex11this_thread9sleep_forEm
-                0x20011874        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_thread.cpp.o)
-                0x20011874                vex::this_thread::sleep_for(unsigned long)
+                0x20011af4        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_thread.cpp.o)
+                0x20011af4                vex::this_thread::sleep_for(unsigned long)
  .text._ZN3vex5brainD2Ev
-                0x20011878        0xe c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
-                0x20011878                vex::brain::~brain()
-                0x20011878                vex::brain::~brain()
+                0x20011af8        0xe c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
+                0x20011af8                vex::brain::~brain()
+                0x20011af8                vex::brain::~brain()
  .text._ZN3vex5brain3lcd9setCursorEll
-                0x20011886       0x40 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
-                0x20011886                vex::brain::lcd::setCursor(long, long)
- *fill*         0x200118c6        0x2 
+                0x20011b06       0x40 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
+                0x20011b06                vex::brain::lcd::setCursor(long, long)
+ *fill*         0x20011b46        0x2 
  .text._ZN3vex5brain3lcd7setFontENS_8fontTypeE
-                0x200118c8      0x144 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
-                0x200118c8                vex::brain::lcd::setFont(vex::fontType)
+                0x20011b48      0x144 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
+                0x20011b48                vex::brain::lcd::setFont(vex::fontType)
  .text._ZN3vex5brain3lcdC2Ev
-                0x20011a0c       0x34 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
-                0x20011a0c                vex::brain::lcd::lcd()
-                0x20011a0c                vex::brain::lcd::lcd()
+                0x20011c8c       0x34 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
+                0x20011c8c                vex::brain::lcd::lcd()
+                0x20011c8c                vex::brain::lcd::lcd()
  .text._ZN3vex5brainC2Ev
-                0x20011a40       0x32 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
-                0x20011a40                vex::brain::brain()
-                0x20011a40                vex::brain::brain()
+                0x20011cc0       0x32 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
+                0x20011cc0                vex::brain::brain()
+                0x20011cc0                vex::brain::brain()
  .text._ZN3vex5timerD2Ev
-                0x20011a72        0x2 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_timer.cpp.o)
-                0x20011a72                vex::timer::~timer()
-                0x20011a72                vex::timer::~timer()
+                0x20011cf2        0x2 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_timer.cpp.o)
+                0x20011cf2                vex::timer::~timer()
+                0x20011cf2                vex::timer::~timer()
  .text._ZN3vex5timer5clearEv
-                0x20011a74       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_timer.cpp.o)
-                0x20011a74                vex::timer::clear()
+                0x20011cf4       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_timer.cpp.o)
+                0x20011cf4                vex::timer::clear()
  .text._ZN3vex5timerC2Ev
-                0x20011a84        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_timer.cpp.o)
-                0x20011a84                vex::timer::timer()
-                0x20011a84                vex::timer::timer()
+                0x20011d04        0xc c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_timer.cpp.o)
+                0x20011d04                vex::timer::timer()
+                0x20011d04                vex::timer::timer()
  .text._ZN3vex5motor9installedEv
-                0x20011a90        0xe c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011a90                vex::motor::installed()
- *fill*         0x20011a9e        0x2 
+                0x20011d10        0xe c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011d10                vex::motor::installed()
+ *fill*         0x20011d1e        0x2 
  .text._ZN3vex5motorD2Ev
-                0x20011aa0       0x14 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011aa0                vex::motor::~motor()
-                0x20011aa0                vex::motor::~motor()
+                0x20011d20       0x14 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011d20                vex::motor::~motor()
+                0x20011d20                vex::motor::~motor()
  .text._ZN3vex5motor15defaultStoppingENS_9brakeTypeE
-                0x20011ab4       0x1a c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011ab4                vex::motor::defaultStopping(vex::brakeType)
+                0x20011d34       0x1a c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011d34                vex::motor::defaultStopping(vex::brakeType)
  .text._ZN3vex5motor11setStoppingENS_9brakeTypeE
-                0x20011ace        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011ace                vex::motor::setStopping(vex::brakeType)
- *fill*         0x20011ad2        0x6 
+                0x20011d4e        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011d4e                vex::motor::setStopping(vex::brakeType)
+ *fill*         0x20011d52        0x6 
  .text._ZN3vex5motorC2El
-                0x20011ad8       0x60 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011ad8                vex::motor::motor(long)
-                0x20011ad8                vex::motor::motor(long)
+                0x20011d58       0x60 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011d58                vex::motor::motor(long)
+                0x20011d58                vex::motor::motor(long)
  .text._ZN3vex5motorC2Elb
-                0x20011b38       0x16 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011b38                vex::motor::motor(long, bool)
-                0x20011b38                vex::motor::motor(long, bool)
+                0x20011db8       0x16 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011db8                vex::motor::motor(long, bool)
+                0x20011db8                vex::motor::motor(long, bool)
  .text._ZN3vex5motor14isSpinningModeEv
-                0x20011b4e       0x16 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011b4e                vex::motor::isSpinningMode()
+                0x20011dce       0x16 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011dce                vex::motor::isSpinningMode()
  .text._ZN3vex5motor10isSpinningEv
-                0x20011b64       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011b64                vex::motor::isSpinning()
+                0x20011de4       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011de4                vex::motor::isSpinning()
  .text._ZN3vex5motor4stopENS_9brakeTypeE
-                0x20011b84       0x1e c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011b84                vex::motor::stop(vex::brakeType)
+                0x20011e04       0x1e c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011e04                vex::motor::stop(vex::brakeType)
  .text._ZN3vex5motor4stopEv
-                0x20011ba2        0x6 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011ba2                vex::motor::stop()
+                0x20011e22        0x6 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011e22                vex::motor::stop()
  .text._ZN3vex5motor12setMaxTorqueEdNS_12percentUnitsE
-                0x20011ba8       0x98 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011ba8                vex::motor::setMaxTorque(double, vex::percentUnits)
+                0x20011e28       0x98 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011e28                vex::motor::setMaxTorque(double, vex::percentUnits)
  .text._ZN3vex5motor16velocityToScaledEdNS_13velocityUnitsE
-                0x20011c40       0x70 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011c40                vex::motor::velocityToScaled(double, vex::velocityUnits)
+                0x20011ec0       0x70 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011ec0                vex::motor::velocityToScaled(double, vex::velocityUnits)
  .text._ZN3vex5motor8velocityENS_13velocityUnitsE
-                0x20011cb0       0x18 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011cb0                vex::motor::velocity(vex::velocityUnits)
+                0x20011f30       0x18 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011f30                vex::motor::velocity(vex::velocityUnits)
  .text._ZN3vex5motor5valueEv
-                0x20011cc8       0x12 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011cc8                vex::motor::value()
- *fill*         0x20011cda        0x6 
+                0x20011f48       0x12 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011f48                vex::motor::value()
+ *fill*         0x20011f5a        0x6 
  .text._ZN3vex5motor16scaledToVelocityEdNS_13velocityUnitsE
-                0x20011ce0       0x74 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011ce0                vex::motor::scaledToVelocity(double, vex::velocityUnits)
+                0x20011f60       0x74 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011f60                vex::motor::scaledToVelocity(double, vex::velocityUnits)
  .text._ZN3vex5motor4spinENS_13directionTypeEdNS_13velocityUnitsE
-                0x20011d54       0x32 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011d54                vex::motor::spin(vex::directionType, double, vex::velocityUnits)
+                0x20011fd4       0x32 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20011fd4                vex::motor::spin(vex::directionType, double, vex::velocityUnits)
  .text._ZN3vex5motor4spinENS_13directionTypeE
-                0x20011d86       0x1e c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011d86                vex::motor::spin(vex::directionType)
+                0x20012006       0x1e c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20012006                vex::motor::spin(vex::directionType)
  .text._ZN3vex5motor11setVelocityEdNS_13velocityUnitsE
-                0x20011da4       0x54 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011da4                vex::motor::setVelocity(double, vex::velocityUnits)
+                0x20012024       0x54 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20012024                vex::motor::setVelocity(double, vex::velocityUnits)
  .text._ZN3vex5motor16setRotationUnitsENS_13rotationUnitsE
-                0x20011df8       0x12 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011df8                vex::motor::setRotationUnits(vex::rotationUnits)
+                0x20012078       0x12 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20012078                vex::motor::setRotationUnits(vex::rotationUnits)
  .text._ZN3vex5motor6spinToEdNS_13rotationUnitsEdNS_13velocityUnitsEb
-                0x20011e0a       0xc0 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011e0a                vex::motor::spinTo(double, vex::rotationUnits, double, vex::velocityUnits, bool)
+                0x2001208a       0xc0 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x2001208a                vex::motor::spinTo(double, vex::rotationUnits, double, vex::velocityUnits, bool)
  .text._ZN3vex5motor6spinToEdNS_13rotationUnitsEb
-                0x20011eca       0x3a c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20011eca                vex::motor::spinTo(double, vex::rotationUnits, bool)
+                0x2001214a       0x3a c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x2001214a                vex::motor::spinTo(double, vex::rotationUnits, bool)
  .text._ZN3vex9pneumatic9installedEv
-                0x20011f04       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
-                0x20011f04                vex::pneumatic::installed()
+                0x20012184       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
+                0x20012184                vex::pneumatic::installed()
  .text._ZN3vex9pneumaticC2Elb
-                0x20011f14       0x24 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
-                0x20011f14                vex::pneumatic::pneumatic(long, bool)
-                0x20011f14                vex::pneumatic::pneumatic(long, bool)
+                0x20012194       0x24 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
+                0x20012194                vex::pneumatic::pneumatic(long, bool)
+                0x20012194                vex::pneumatic::pneumatic(long, bool)
  .text._ZN3vex9pneumaticD2Ev
-                0x20011f38       0x14 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
-                0x20011f38                vex::pneumatic::~pneumatic()
-                0x20011f38                vex::pneumatic::~pneumatic()
+                0x200121b8       0x14 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
+                0x200121b8                vex::pneumatic::~pneumatic()
+                0x200121b8                vex::pneumatic::~pneumatic()
  .text._ZN3vex9pneumatic6extendENS_12cylinderTypeE
-                0x20011f4c        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
-                0x20011f4c                vex::pneumatic::extend(vex::cylinderType)
+                0x200121cc        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
+                0x200121cc                vex::pneumatic::extend(vex::cylinderType)
  .text._ZN3vex9pneumatic7retractENS_12cylinderTypeE
-                0x20011f54        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
-                0x20011f54                vex::pneumatic::retract(vex::cylinderType)
+                0x200121d4        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
+                0x200121d4                vex::pneumatic::retract(vex::cylinderType)
  .text._ZN3vex9pneumatic4pumpEb
-                0x20011f5c        0x6 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
-                0x20011f5c                vex::pneumatic::pump(bool)
+                0x200121dc        0x6 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
+                0x200121dc                vex::pneumatic::pump(bool)
  .text._ZN3vex11motor_group18motor_group_motorsC2Ev
-                0x20011f62       0x18 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
-                0x20011f62                vex::motor_group::motor_group_motors::motor_group_motors()
-                0x20011f62                vex::motor_group::motor_group_motors::motor_group_motors()
+                0x200121e2       0x18 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x200121e2                vex::motor_group::motor_group_motors::motor_group_motors()
+                0x200121e2                vex::motor_group::motor_group_motors::motor_group_motors()
  .text._ZN3vex11motor_groupC2Ev
-                0x20011f7a       0x14 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
-                0x20011f7a                vex::motor_group::motor_group()
-                0x20011f7a                vex::motor_group::motor_group()
+                0x200121fa       0x14 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x200121fa                vex::motor_group::motor_group()
+                0x200121fa                vex::motor_group::motor_group()
  .text._ZN3vex11motor_groupD2Ev
-                0x20011f8e        0x2 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
-                0x20011f8e                vex::motor_group::~motor_group()
-                0x20011f8e                vex::motor_group::~motor_group()
+                0x2001220e        0x2 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x2001220e                vex::motor_group::~motor_group()
+                0x2001220e                vex::motor_group::~motor_group()
  .text._ZN3vex11motor_group9_addMotorERNS_5motorE
-                0x20011f90       0x14 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
-                0x20011f90                vex::motor_group::_addMotor(vex::motor&)
+                0x20012210       0x14 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x20012210                vex::motor_group::_addMotor(vex::motor&)
  .text._ZN3vex11motor_group11setVelocityEdNS_13velocityUnitsE
-                0x20011fa4       0x3a c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
-                0x20011fa4                vex::motor_group::setVelocity(double, vex::velocityUnits)
+                0x20012224       0x3a c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x20012224                vex::motor_group::setVelocity(double, vex::velocityUnits)
  .text._ZN3vex11motor_group11setStoppingENS_9brakeTypeE
-                0x20011fde       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
-                0x20011fde                vex::motor_group::setStopping(vex::brakeType)
+                0x2001225e       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x2001225e                vex::motor_group::setStopping(vex::brakeType)
  .text._ZN3vex11motor_group10isSpinningEv
-                0x20012000       0x26 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
-                0x20012000                vex::motor_group::isSpinning()
+                0x20012280       0x26 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x20012280                vex::motor_group::isSpinning()
  .text._ZN3vex11motor_group6isDoneEv
-                0x20012026        0xe c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
-                0x20012026                vex::motor_group::isDone()
+                0x200122a6        0xe c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x200122a6                vex::motor_group::isDone()
  .text._ZN3vex11motor_group4stopEv
-                0x20012034       0x1e c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
-                0x20012034                vex::motor_group::stop()
+                0x200122b4       0x1e c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x200122b4                vex::motor_group::stop()
  .text._ZN3vex11motor_group12setMaxTorqueEdNS_12percentUnitsE
-                0x20012052       0x3a c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
-                0x20012052                vex::motor_group::setMaxTorque(double, vex::percentUnits)
+                0x200122d2       0x3a c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x200122d2                vex::motor_group::setMaxTorque(double, vex::percentUnits)
  .text._ZN3vex11motor_group20waitForCompletionAllEv
-                0x2001208c       0x36 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
-                0x2001208c                vex::motor_group::waitForCompletionAll()
+                0x2001230c       0x36 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x2001230c                vex::motor_group::waitForCompletionAll()
  .text._ZN3vex11motor_group6spinToEdNS_13rotationUnitsEb
-                0x200120c2       0x56 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
-                0x200120c2                vex::motor_group::spinTo(double, vex::rotationUnits, bool)
+                0x20012342       0x56 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x20012342                vex::motor_group::spinTo(double, vex::rotationUnits, bool)
  .text._ZN3vex10controllerC2Ev
-                0x20012118       0x5e c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
-                0x20012118                vex::controller::controller()
-                0x20012118                vex::controller::controller()
+                0x20012398       0x5e c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
+                0x20012398                vex::controller::controller()
+                0x20012398                vex::controller::controller()
  .text._ZN3vex10controllerD2Ev
-                0x20012176        0x2 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
-                0x20012176                vex::controller::~controller()
-                0x20012176                vex::controller::~controller()
+                0x200123f6        0x2 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
+                0x200123f6                vex::controller::~controller()
+                0x200123f6                vex::controller::~controller()
  .text._ZN3vex10controller5valueE19_IQ_ControllerIndex
-                0x20012178        0x6 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
-                0x20012178                vex::controller::value(_IQ_ControllerIndex)
+                0x200123f8        0x6 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
+                0x200123f8                vex::controller::value(_IQ_ControllerIndex)
  .text._ZNK3vex10controller6button8pressingEv
-                0x2001217e       0x52 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
-                0x2001217e                vex::controller::button::pressing() const
+                0x200123fe       0x52 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
+                0x200123fe                vex::controller::button::pressing() const
  .text._ZNK3vex10controller4axis5valueEv
-                0x200121d0       0x2a c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
-                0x200121d0                vex::controller::axis::value() const
+                0x20012450       0x2a c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
+                0x20012450                vex::controller::axis::value() const
  .text._ZNK3vex10controller4axis8positionENS_12percentUnitsE
-                0x200121fa       0x12 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
-                0x200121fa                vex::controller::axis::position(vex::percentUnits) const
+                0x2001247a       0x12 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
+                0x2001247a                vex::controller::axis::position(vex::percentUnits) const
  .text._ZN3vex5event9userindexEv
-                0x2001220c        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_event.cpp.o)
-                0x2001220c                vex::event::userindex()
+                0x2001248c        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_event.cpp.o)
+                0x2001248c                vex::event::userindex()
  .text._ZN3vex6device5valueEv
-                0x20012210        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
-                0x20012210                vex::device::value()
+                0x20012490        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
+                0x20012490                vex::device::value()
  .text._ZN3vex6deviceD2Ev
-                0x20012214        0x2 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
-                0x20012214                vex::device::~device()
-                0x20012214                vex::device::~device()
+                0x20012494        0x2 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
+                0x20012494                vex::device::~device()
+                0x20012494                vex::device::~device()
  .text._ZN3vex6device4initEl
-                0x20012216       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
-                0x20012216                vex::device::init(long)
+                0x20012496       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
+                0x20012496                vex::device::init(long)
  .text._ZN3vex6deviceC2El
-                0x20012238       0x14 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
-                0x20012238                vex::device::device(long)
-                0x20012238                vex::device::device(long)
+                0x200124b8       0x14 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
+                0x200124b8                vex::device::device(long)
+                0x200124b8                vex::device::device(long)
  .text._ZN3vex6device4typeEv
-                0x2001224c        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
-                0x2001224c                vex::device::type()
+                0x200124cc        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
+                0x200124cc                vex::device::type()
  .text._ZN3vex6device9installedEv
-                0x20012254        0xe c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
-                0x20012254                vex::device::installed()
+                0x200124d4        0xe c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
+                0x200124d4                vex::device::installed()
  .text.__aeabi_atexit
-                0x20012262        0xa c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libc_nano.a(lib_a-aeabi_atexit.o)
-                0x20012262                __aeabi_atexit
+                0x200124e2        0xa c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libc_nano.a(lib_a-aeabi_atexit.o)
+                0x200124e2                __aeabi_atexit
  .text.__libc_init_array
-                0x2001226c       0x48 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libc_nano.a(lib_a-init.o)
-                0x2001226c                __libc_init_array
+                0x200124ec       0x48 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libc_nano.a(lib_a-init.o)
+                0x200124ec                __libc_init_array
  *(.gnu.linkonce.t.*)
  *(.plt)
  *(.gnu_warning)
@@ -2669,10 +2669,10 @@ Linker script and memory map
  *(.ARM.extab)
  *(.gnu.linkonce.armextab.*)
 
-.v4_bx          0x200122b4        0x0
+.v4_bx          0x20012534        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x200122b4        0x0
+.iplt           0x20012534        0x0
  .iplt          0x00000000        0x0 build/src/main.o
 
 .init
@@ -2681,156 +2681,156 @@ Linker script and memory map
 .fini
  *(.fini)
 
-.rodata         0x200122b8       0xc8
-                0x200122b8                __rodata_start = .
+.rodata         0x20012538       0xc8
+                0x20012538                __rodata_start = .
  *(.rodata)
  *(.rodata.*)
  .rodata.str1.1
-                0x200122b8       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
- *fill*         0x200122da        0x2 
+                0x20012538       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
+ *fill*         0x2001255a        0x2 
  .rodata._ZN3vex9cylinder2E
-                0x200122dc        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x200122dc                vex::cylinder2
+                0x2001255c        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x2001255c                vex::cylinder2
  .rodata._ZN3vex5PORT1E
-                0x200122e0        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x200122e0                vex::PORT1
+                0x20012560        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x20012560                vex::PORT1
  .rodata._ZN3vex6PORT10E
-                0x200122e4        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x200122e4                vex::PORT10
+                0x20012564        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x20012564                vex::PORT10
  .rodata._ZN3vex7forwardE
-                0x200122e8        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x200122e8                vex::forward
+                0x20012568        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x20012568                vex::forward
  .rodata._ZN3vex7secondsE
-                0x200122ec        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x200122ec                vex::seconds
+                0x2001256c        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x2001256c                vex::seconds
  .rodata._ZN3vex4msecE
-                0x200122f0        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x200122f0                vex::msec
+                0x20012570        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x20012570                vex::msec
  .rodata._ZN3vex5PORT9E
-                0x200122f4        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x200122f4                vex::PORT9
+                0x20012574        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x20012574                vex::PORT9
  .rodata._ZN3vex6PORT11E
-                0x200122f8        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x200122f8                vex::PORT11
+                0x20012578        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x20012578                vex::PORT11
  .rodata._ZN3vex5PORT6E
-                0x200122fc        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x200122fc                vex::PORT6
+                0x2001257c        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x2001257c                vex::PORT6
  .rodata._ZN3vex7percentE
-                0x20012300        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x20012300                vex::percent
+                0x20012580        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x20012580                vex::percent
  .rodata._ZN3vex7degreesE
-                0x20012304        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x20012304                vex::degrees
+                0x20012584        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x20012584                vex::degrees
  .rodata._ZN3vex4holdE
-                0x20012308        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x20012308                vex::hold
+                0x20012588        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x20012588                vex::hold
  .rodata._ZN3vex6PORT12E
-                0x2001230c        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x2001230c                vex::PORT12
+                0x2001258c        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x2001258c                vex::PORT12
  .rodata._ZN3vex5PORT7E
-                0x20012310        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x20012310                vex::PORT7
+                0x20012590        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x20012590                vex::PORT7
  .rodata._ZN3vex9cylinder1E
-                0x20012314        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x20012314                vex::cylinder1
+                0x20012594        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x20012594                vex::cylinder1
  .rodata._ZN3vex5PORT8E
-                0x20012318        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
-                0x20012318                vex::PORT8
+                0x20012598        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x20012598                vex::PORT8
  .rodata.str1.1
-                0x2001231c       0x14 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_task.cpp.o)
+                0x2001259c       0x14 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_task.cpp.o)
  .rodata.str1.1
-                0x20012330       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
+                0x200125b0       0x20 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
  .rodata._ZTVN3vex5motorE
-                0x20012350       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20012350                vtable for vex::motor
+                0x200125d0       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x200125d0                vtable for vex::motor
  .rodata._ZTVN3vex9pneumaticE
-                0x20012360       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
-                0x20012360                vtable for vex::pneumatic
+                0x200125e0       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
+                0x200125e0                vtable for vex::pneumatic
  .rodata._ZTVN3vex6deviceE
-                0x20012370       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
-                0x20012370                vtable for vex::device
+                0x200125f0       0x10 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
+                0x200125f0                vtable for vex::device
  *(.gnu.linkonce.r.*)
-                0x20012380                __rodata_end = .
+                0x20012600                __rodata_end = .
 
-.rodata1        0x20012380        0x0
-                0x20012380                __rodata1_start = .
+.rodata1        0x20012600        0x0
+                0x20012600                __rodata1_start = .
  *(.rodata1)
  *(.rodata1.*)
-                0x20012380                __rodata1_end = .
+                0x20012600                __rodata1_end = .
 
-.sdata2         0x20012380        0x0
-                0x20012380                __sdata2_start = .
+.sdata2         0x20012600        0x0
+                0x20012600                __sdata2_start = .
  *(.sdata2)
  *(.sdata2.*)
  *(.gnu.linkonce.s2.*)
-                0x20012380                __sdata2_end = .
+                0x20012600                __sdata2_end = .
 
-.sbss2          0x20012380        0x0
-                0x20012380                __sbss2_start = .
+.sbss2          0x20012600        0x0
+                0x20012600                __sbss2_start = .
  *(.sbss2)
  *(.sbss2.*)
  *(.gnu.linkonce.sb2.*)
-                0x20012380                __sbss2_end = .
+                0x20012600                __sbss2_end = .
 
-.data           0x20012380        0x4
-                0x20012380                __data_start = .
-                0x20012380                __data_load = .
+.data           0x20012600        0x4
+                0x20012600                __data_start = .
+                0x20012600                __data_load = .
  *(.data)
  *(.data.*)
  .data._ZN3vex24__default_motor_velocityE
-                0x20012380        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
-                0x20012380                vex::__default_motor_velocity
+                0x20012600        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20012600                vex::__default_motor_velocity
  *(.gnu.linkonce.d.*)
  *(.jcr)
  *(.got)
  *(.got.plt)
-                0x20012384                __data_end = .
+                0x20012604                __data_end = .
 
-.igot.plt       0x20012384        0x0
+.igot.plt       0x20012604        0x0
  .igot.plt      0x00000000        0x0 build/src/main.o
 
-.data1          0x20012384        0x0
-                0x20012384                __data1_start = .
-                0x20012384                __data1_load = .
+.data1          0x20012604        0x0
+                0x20012604                __data1_start = .
+                0x20012604                __data1_load = .
  *(.data1)
  *(.data1.*)
-                0x20012384                __data1_end = .
+                0x20012604                __data1_end = .
 
 .got
  *(.got)
 
-.ctors          0x20012384        0x0
-                0x20012384                __CTOR_LIST__ = .
-                0x20012384                ___CTORS_LIST___ = .
+.ctors          0x20012604        0x0
+                0x20012604                __CTOR_LIST__ = .
+                0x20012604                ___CTORS_LIST___ = .
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x20012384                __CTOR_END__ = .
-                0x20012384                ___CTORS_END___ = .
+                0x20012604                __CTOR_END__ = .
+                0x20012604                ___CTORS_END___ = .
 
-.dtors          0x20012384        0x0
-                0x20012384                __DTOR_LIST__ = .
-                0x20012384                ___DTORS_LIST___ = .
+.dtors          0x20012604        0x0
+                0x20012604                __DTOR_LIST__ = .
+                0x20012604                ___DTORS_LIST___ = .
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x20012384                __DTOR_END__ = .
-                0x20012384                ___DTORS_END___ = .
+                0x20012604                __DTOR_END__ = .
+                0x20012604                ___DTORS_END___ = .
 
-.fixup          0x20012384        0x0
-                0x20012384                __fixup_start = .
+.fixup          0x20012604        0x0
+                0x20012604                __fixup_start = .
  *(.fixup)
-                0x20012384                __fixup_end = .
+                0x20012604                __fixup_end = .
 
 .eh_frame
  *(.eh_frame)
 
-.eh_framehdr    0x20012384        0x0
-                0x20012384                __eh_framehdr_start = .
+.eh_framehdr    0x20012604        0x0
+                0x20012604                __eh_framehdr_start = .
  *(.eh_framehdr)
-                0x20012384                __eh_framehdr_end = .
+                0x20012604                __eh_framehdr_end = .
 
 .gcc_except_table
  *(.gcc_except_table)
@@ -2840,251 +2840,251 @@ Linker script and memory map
  *(.mmu_tbl)
                 0x20014000                __mmu_tbl_end = .
 
-.ARM.exidx      0x20012384        0x8
-                0x20012384                __exidx_start = .
+.ARM.exidx      0x20012604        0x8
+                0x20012604                __exidx_start = .
  *(.ARM.exidx*)
  .ARM.exidx.text._Z5driveff
-                0x20012384        0x8 build/src/main.o
+                0x20012604        0x8 build/src/main.o
  .ARM.exidx.text._Z9drivecodev
-                0x2001238c        0x0 build/src/main.o
+                0x2001260c        0x0 build/src/main.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text._Z8mainCodev
-                0x2001238c        0x0 build/src/main.o
+                0x2001260c        0x0 build/src/main.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text._Z7beamArmv
-                0x2001238c        0x0 build/src/main.o
+                0x2001260c        0x0 build/src/main.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text.main
-                0x2001238c        0x0 build/src/main.o
+                0x2001260c        0x0 build/src/main.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text._GLOBAL__sub_I_main.cpp
-                0x2001238c        0x0 build/src/main.o
+                0x2001260c        0x0 build/src/main.o
                                   0x8 (size before relaxing)
  *(.gnu.linkonce.armexidix.*.*)
-                0x2001238c                __exidx_end = .
+                0x2001260c                __exidx_end = .
 
-.rel.dyn        0x2001238c        0x0
+.rel.dyn        0x2001260c        0x0
  .rel.iplt      0x00000000        0x0 build/src/main.o
 
-.preinit_array  0x2001238c        0x0
-                0x2001238c                __preinit_array_start = .
+.preinit_array  0x2001260c        0x0
+                0x2001260c                __preinit_array_start = .
  *(SORT(.preinit_array.*))
  *(.preinit_array)
-                0x2001238c                __preinit_array_end = .
+                0x2001260c                __preinit_array_end = .
 
-.init_array     0x2001238c        0x8
-                0x2001238c                __init_array_start = .
+.init_array     0x2001260c        0x8
+                0x2001260c                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x2001238c        0x4 build/src/main.o
- .init_array    0x20012390        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x20012394                __init_array_end = .
+ .init_array    0x2001260c        0x4 build/src/main.o
+ .init_array    0x20012610        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012614                __init_array_end = .
 
-.fini_array     0x20012394        0x0
-                0x20012394                __fini_array_start = .
+.fini_array     0x20012614        0x0
+                0x20012614                __fini_array_start = .
  *(SORT(.fini_array.*))
  *(.fini_array)
-                0x20012394                __fini_array_end = .
+                0x20012614                __fini_array_end = .
 
 .ARM.attributes
-                0x20012394       0x3d
-                0x20012394                __ARM.attributes_start = .
+                0x20012614       0x3d
+                0x20012614                __ARM.attributes_start = .
  *(.ARM.attributes)
  .ARM.attributes
-                0x20012394       0x49 build/src/main.o
+                0x20012614       0x49 build/src/main.o
  .ARM.attributes
-                0x200123dd       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
+                0x2001265d       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
  .ARM.attributes
-                0x20012416       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
+                0x20012696       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_apijump.c.o)
  .ARM.attributes
-                0x2001244f       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
+                0x200126cf       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_global.cpp.o)
  .ARM.attributes
-                0x20012488       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012708       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
  .ARM.attributes
-                0x200124c1       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_task.cpp.o)
+                0x20012741       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_task.cpp.o)
  .ARM.attributes
-                0x200124fa       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_thread.cpp.o)
+                0x2001277a       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_thread.cpp.o)
  .ARM.attributes
-                0x20012533       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
+                0x200127b3       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_brain.cpp.o)
  .ARM.attributes
-                0x2001256c       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_timer.cpp.o)
+                0x200127ec       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_timer.cpp.o)
  .ARM.attributes
-                0x200125a5       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
+                0x20012825       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motor.cpp.o)
  .ARM.attributes
-                0x200125de       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
+                0x2001285e       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_pneumatic.cpp.o)
  .ARM.attributes
-                0x20012617       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
+                0x20012897       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_motorgroup.cpp.o)
  .ARM.attributes
-                0x20012650       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
+                0x200128d0       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_controller.cpp.o)
  .ARM.attributes
-                0x20012689       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_event.cpp.o)
+                0x20012909       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_event.cpp.o)
  .ARM.attributes
-                0x200126c2       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
+                0x20012942       0x39 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_device.cpp.o)
  .ARM.attributes
-                0x200126fb       0x34 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libc_nano.a(lib_a-aeabi_atexit.o)
+                0x2001297b       0x34 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libc_nano.a(lib_a-aeabi_atexit.o)
  .ARM.attributes
-                0x2001272f       0x34 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libc_nano.a(lib_a-init.o)
+                0x200129af       0x34 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x20012763       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libgcc.a(_arm_addsubdf3.o)
+                0x200129e3       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x20012785       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libgcc.a(_arm_muldivdf3.o)
+                0x20012a05       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x200127a7       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libgcc.a(_arm_cmpdf2.o)
+                0x20012a27       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x200127c9       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libgcc.a(_arm_fixdfsi.o)
-                0x200127eb                __ARM.attributes_end = .
+                0x20012a49       0x22 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2/gcc/libs\libgcc.a(_arm_fixdfsi.o)
+                0x20012a6b                __ARM.attributes_end = .
 
-.sdata          0x20012394        0x0
-                0x20012394                __sdata_start = .
+.sdata          0x20012614        0x0
+                0x20012614                __sdata_start = .
  *(.sdata)
  *(.sdata.*)
  *(.gnu.linkonce.s.*)
-                0x20012394                __sdata_end = .
+                0x20012614                __sdata_end = .
 
-.sbss           0x20012394        0x0
-                0x20012394                __sbss_start = .
+.sbss           0x20012614        0x0
+                0x20012614                __sbss_start = .
  *(.sbss)
  *(.sbss.*)
  *(.gnu.linkonce.sb.*)
-                0x20012394                __sbss_end = .
+                0x20012614                __sbss_end = .
 
-.tdata          0x20012394        0x0
-                0x20012394                __tdata_start = .
+.tdata          0x20012614        0x0
+                0x20012614                __tdata_start = .
  *(.tdata)
  *(.tdata.*)
  *(.gnu.linkonce.td.*)
-                0x20012394                __tdata_end = .
+                0x20012614                __tdata_end = .
 
-.tbss           0x20012394        0x0
-                0x20012394                __tbss_start = .
+.tbss           0x20012614        0x0
+                0x20012614                __tbss_start = .
  *(.tbss)
  *(.tbss.*)
  *(.gnu.linkonce.tb.*)
-                0x20012394                __tbss_end = .
+                0x20012614                __tbss_end = .
 
-.bss            0x20012394      0x3a8
-                0x20012394                __bss_start = .
+.bss            0x20012614      0x3a8
+                0x20012614                __bss_start = .
  *(.bss)
  *(.bss.*)
- .bss.Brain     0x20012394       0xc4 build/src/main.o
-                0x20012394                Brain
+ .bss.Brain     0x20012614       0xc4 build/src/main.o
+                0x20012614                Brain
  .bss.Controller
-                0x20012458       0x78 build/src/main.o
-                0x20012458                Controller
+                0x200126d8       0x78 build/src/main.o
+                0x200126d8                Controller
  .bss.rightDrive
-                0x200124d0       0x30 build/src/main.o
-                0x200124d0                rightDrive
+                0x20012750       0x30 build/src/main.o
+                0x20012750                rightDrive
  .bss.leftDrive
-                0x20012500       0x30 build/src/main.o
-                0x20012500                leftDrive
+                0x20012780       0x30 build/src/main.o
+                0x20012780                leftDrive
  .bss.rightPArm
-                0x20012530       0x30 build/src/main.o
-                0x20012530                rightPArm
- .bss.leftPArm  0x20012560       0x30 build/src/main.o
-                0x20012560                leftPArm
+                0x200127b0       0x30 build/src/main.o
+                0x200127b0                rightPArm
+ .bss.leftPArm  0x200127e0       0x30 build/src/main.o
+                0x200127e0                leftPArm
  .bss.rightBArm
-                0x20012590       0x30 build/src/main.o
-                0x20012590                rightBArm
- .bss.leftBArm  0x200125c0       0x30 build/src/main.o
-                0x200125c0                leftBArm
+                0x20012810       0x30 build/src/main.o
+                0x20012810                rightBArm
+ .bss.leftBArm  0x20012840       0x30 build/src/main.o
+                0x20012840                leftBArm
  .bss.pneumatic1
-                0x200125f0       0x14 build/src/main.o
-                0x200125f0                pneumatic1
+                0x20012870       0x14 build/src/main.o
+                0x20012870                pneumatic1
  .bss.pneumatic2
-                0x20012604       0x14 build/src/main.o
-                0x20012604                pneumatic2
- .bss.armGroup  0x20012618       0x48 build/src/main.o
-                0x20012618                armGroup
+                0x20012884       0x14 build/src/main.o
+                0x20012884                pneumatic2
+ .bss.armGroup  0x20012898       0x48 build/src/main.o
+                0x20012898                armGroup
  .bss.beamGroup
-                0x20012660       0x48 build/src/main.o
-                0x20012660                beamGroup
+                0x200128e0       0x48 build/src/main.o
+                0x200128e0                beamGroup
  .bss.__vex_critical_section
-                0x200126a8        0x1 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
-                0x200126a8                __vex_critical_section
- *fill*         0x200126a9        0x3 
+                0x20012928        0x1 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
+                0x20012928                __vex_critical_section
+ *fill*         0x20012929        0x3 
  .bss.__dso_handle
-                0x200126ac        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
-                0x200126ac                __dso_handle
+                0x2001292c        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(iq2_startup.c.o)
+                0x2001292c                __dso_handle
  .bss._ZN3vex5color6orangeE
-                0x200126b0        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x200126b0                vex::color::orange
+                0x20012930        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012930                vex::color::orange
  .bss._ZN3vex5color13yellow_orangeE
-                0x200126b8        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x200126b8                vex::color::yellow_orange
+                0x20012938        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012938                vex::color::yellow_orange
  .bss._ZN3vex5color6violetE
-                0x200126c0        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x200126c0                vex::color::violet
+                0x20012940        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012940                vex::color::violet
  .bss._ZN3vex5color12yellow_greenE
-                0x200126c8        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x200126c8                vex::color::yellow_green
+                0x20012948        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012948                vex::color::yellow_green
  .bss._ZN3vex5color5blackE
-                0x200126d0        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x200126d0                vex::color::black
+                0x20012950        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012950                vex::color::black
  .bss._ZN3vex5color6yellowE
-                0x200126d8        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x200126d8                vex::color::yellow
+                0x20012958        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012958                vex::color::yellow
  .bss._ZN3vex5color5greenE
-                0x200126e0        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x200126e0                vex::color::green
+                0x20012960        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012960                vex::color::green
  .bss._ZN3vex5color6purpleE
-                0x200126e8        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x200126e8                vex::color::purple
+                0x20012968        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012968                vex::color::purple
  .bss._ZN3vex5color4cyanE
-                0x200126f0        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x200126f0                vex::color::cyan
+                0x20012970        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012970                vex::color::cyan
  .bss._ZN3vex5color10red_violetE
-                0x200126f8        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x200126f8                vex::color::red_violet
+                0x20012978        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012978                vex::color::red_violet
  .bss._ZN3vex5color4blueE
-                0x20012700        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x20012700                vex::color::blue
+                0x20012980        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012980                vex::color::blue
  .bss._ZN3vex5color3redE
-                0x20012708        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x20012708                vex::color::red
+                0x20012988        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012988                vex::color::red
  .bss._ZN3vex5color11blue_violetE
-                0x20012710        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x20012710                vex::color::blue_violet
+                0x20012990        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012990                vex::color::blue_violet
  .bss._ZN3vex5color10blue_greenE
-                0x20012718        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x20012718                vex::color::blue_green
+                0x20012998        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x20012998                vex::color::blue_green
  .bss._ZN3vex5color11transparentE
-                0x20012720        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x20012720                vex::color::transparent
+                0x200129a0        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x200129a0                vex::color::transparent
  .bss._ZN3vex5color5whiteE
-                0x20012728        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x20012728                vex::color::white
+                0x200129a8        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x200129a8                vex::color::white
  .bss._ZN3vex5color10red_orangeE
-                0x20012730        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
-                0x20012730                vex::color::red_orange
+                0x200129b0        0x8 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_color.cpp.o)
+                0x200129b0                vex::color::red_orange
  .bss._ZN3vex4task8_labelIdE
-                0x20012738        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_task.cpp.o)
-                0x20012738                vex::task::_labelId
+                0x200129b8        0x4 c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a(vex_task.cpp.o)
+                0x200129b8                vex::task::_labelId
  *(.gnu.linkonce.b.*)
  *(COMMON)
-                0x2001273c                __bss_end = .
-                0x20012394                _SDA_BASE_ = (__sdata_start + ((__sbss_end - __sdata_start) / 0x2))
-                0x20012380                _SDA2_BASE_ = (__sdata2_start + ((__sbss2_end - __sdata2_start) / 0x2))
+                0x200129bc                __bss_end = .
+                0x20012614                _SDA_BASE_ = (__sdata_start + ((__sbss_end - __sdata_start) / 0x2))
+                0x20012600                _SDA2_BASE_ = (__sdata2_start + ((__sbss2_end - __sdata2_start) / 0x2))
 
-.heap           0x2001273c     0x1004
-                0x20012740                . = ALIGN (0x10)
- *fill*         0x2001273c        0x4 
-                0x20012740                _heap = .
-                0x20012740                HeapBase = .
-                0x20012740                _heap_start = .
-                0x20013740                . = (. + _HEAP_SIZE)
- *fill*         0x20012740     0x1000 
-                0x20013740                _heap_end = .
-                0x20013740                HeapLimit = .
+.heap           0x200129bc     0x1004
+                0x200129c0                . = ALIGN (0x10)
+ *fill*         0x200129bc        0x4 
+                0x200129c0                _heap = .
+                0x200129c0                HeapBase = .
+                0x200129c0                _heap_start = .
+                0x200139c0                . = (. + _HEAP_SIZE)
+ *fill*         0x200129c0     0x1000 
+                0x200139c0                _heap_end = .
+                0x200139c0                HeapLimit = .
 
-.stack          0x20013740       0x20
-                0x20013740                . = ALIGN (0x10)
-                0x20013740                _stack_end = .
-                0x20013760                . = (. + _STACK_SIZE)
- *fill*         0x20013740       0x20 
-                0x20013760                . = ALIGN (0x10)
-                0x20013760                _stack = .
-                0x20013760                __stack = _stack
-                0x20013760                _end = .
+.stack          0x200139c0       0x20
+                0x200139c0                . = ALIGN (0x10)
+                0x200139c0                _stack_end = .
+                0x200139e0                . = (. + _STACK_SIZE)
+ *fill*         0x200139c0       0x20 
+                0x200139e0                . = ALIGN (0x10)
+                0x200139e0                _stack = .
+                0x200139e0                __stack = _stack
+                0x200139e0                _end = .
 LOAD build/src/main.o
 START GROUP
 LOAD c:\Users\alexa\AppData\Roaming\Code\User\globalStorage\vexrobotics.vexcode\sdk\cpp\IQ2\IQ2_20231003_10_00_00/vexiq2\libviq2rt.a
